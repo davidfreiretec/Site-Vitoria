@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitória Vicente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo da Empresa">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <h1>Bem-vindo à Vitória Vicente</h1>
+      <p>Oferecemos soluções inovadoras para o seu negócio.</p>
+      <a href="#" class="btn">Saiba Mais</a>
+    </section>
+
+    <section class="services" id="services">
+      <h2>NOSSOS SERVIÇOS</h2>
+      <ul>
+        <li>Manicure</li>
+        <li>Design Gráfico</li>
+        <li>Marketing Digital</li>
+        <li>Consultoria Empresarial</li>
+      </ul>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2>NOSSO PORTFÓLIO</h2>
+      <div class="gallery">
+        <img src="projeto1.jpg" alt="Projeto 1">
+        <img src="projeto2.jpg" alt="Projeto 2">
+        <img src="projeto3.jpg" alt="Projeto 3">
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>ENTRE EM CONTATO</h2>
+      <form>
+        <input type="text" name="name" placeholder="Nome" required>
+        <input type="email" name="email" placeholder="E-mail" required>
+        <textarea name="message" placeholder="Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Empresa Vitória. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Scripts do Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
